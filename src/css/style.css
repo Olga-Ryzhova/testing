@@ -1,0 +1,49 @@
+/* img:hover {
+    border: 3px solid #acabab;
+} */
+.card-form-widget {
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.input {
+    height: 30px;
+    width: 246px;
+    font-size: 20px;
+}
+
+.submit {
+    background-color: rgb(80, 173, 72);
+    color: white;
+    width: 128px;
+    border: 0;
+}
+
+.submit:hover {
+    background-color: rgb(79, 163, 72);
+}
+
+.submit:active {
+    background-color: rgb(56, 117, 50);
+}
+
+.image-item {
+    filter: grayscale(1);
+}
+
+
+.mess {
+    position: absolute;
+    font-size: 18px;
+    top: 51px;
+    padding-left: 10px;
+    width: 244px;
+    height: 26px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
